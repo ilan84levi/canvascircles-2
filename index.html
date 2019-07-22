@@ -10,16 +10,19 @@
 </head>
 <body>
   
-        <button onclick="timer()">paint random circles</button>
+    <div class="buttons">
+
+        <button onclick="playCanvas()">paint random circles</button>
         <button onclick="clearCanvas()">clear canvas</button>
         <button onclick="stop()">stop</button>
-        <p id="showHex"></p>
-        <br>
-        <label>radius:</label>
-        <p id="showRadius"></p>
-        <br>
-        <p id="showminNumber"></p>
-    <canvas height="600" width="900" id="myCanvas"></canvas>
+
+    </div>
+       
+
+    <div class="myCanvasBox">
+        <canvas height="600" width="900" id="myCanvas"></canvas>
+    </div>
+    
    
 </body>
 </html>
